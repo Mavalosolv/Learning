@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio Formulario</title>
+    <link rel="stylesheet" href="instalar%20bp-ac/css/bootstrap.min.css">
+    <script src="instalar%20bp-ac/js/bootstrap.bundle.js"></script>
+    <style>
+        body{
+            background-color: #badce3;
+        }
+    </style>
+
+</head>
+<body>
+<section>
+    <div class="text-black text-center ">
+        <p style="font-size: x-large">EJERCICIO FORMULARIO HTML</p>
+         </div>
+        <div class="container">
+        <form class="row g-3 mt-3">
+            <div class="col-6">
+                <label for="nombre" class="form-label">Nombre</label>
+                <input type="text" class="form-control" name="nombre" id="nombre" placeholder="  Ingrese su Nombre  ">
+            </div>
+            <div class="col-6">
+                <label for="apaterno" class="form-label">Apellido Paterno</label>
+                <input type="text" class="form-control" name="napaterno" id="apaterno" placeholder="  Ingrese su Apellido Paterno  ">
+            </div>
+            <div class="col-6">
+                <label for="amaterno" class="form-label">Apellido Materno</label>
+                <input type="text" class="form-control" name="amaterno" id="amaterno" placeholder="  Ingrese su Apellido Materno  ">
+            </div>
+            <div class="col-6">
+                <label for="telefono" class="form-label">Numero de telefono</label>
+                <input type="tel" class="form-control" name="telefono" id="telefono" required="" pattern="[0-8]{3}-[2-9]{4}"  placeholder="  Ingrese su numero de telefono  ">
+            </div>
+            <div class="col-6">
+    <label for="nombres" class="form-label">Email</label>
+                <input type="email" class="form-control" name="nombres" id="nombres" placeholder="  Ingrese su Correo Electronico  ">
+            </div>
+            <div class="col-6">
+              <label for="pass" class="form-label">Contraseña</label>
+              <input type="password" class="form-control" name="pass" id="pass" placeholder="Ingrese su contraseña">
+            </div>
+
+            <div class="col-12">
+                <div>
+                    <br>
+                    <div class="col-10">
+                    <label for="fav">SELECCIONA TUS HOBBIES FAVORITOS</label>
+                    </div>
+                        <br>
+                    <input type="checkbox" class="form-check-input" name="fut" id="fut">
+                    <label for="fut" class="form-check-label">FUTBOL</label>
+                    <br>
+                    <input type="checkbox" class="form-check-input" name="beisbol" id="beisbol">
+                    <label for="beisbol" class="form-check-label">BEISBOL</label>
+                    <br>
+                    <input type="checkbox" class="form-check-input" name="netflix" id="netflix">
+                    <label for="netflix" class="form-check-label">NETFLIX</label>
+                    <br>
+                    <input type="checkbox" class="form-check-input" name="trabajar" id="trabajar">
+                    <label for="trabajar" class="form-check-label">TRABAJAR</label>
+                    <br>
+                    <input type="checkbox" class="form-check-input" name="programar" id="programar">
+                    <label for="programar" class="form-check-label">PROGRAMAR</label>
+                    <br>
+                    <input type="checkbox" class="form-check-input" name="voleibol" id="voleibol">
+                    <label for="voleibol" class="form-check-label">VOLEIBOL</label>
+                    <br>
+                    <input type="checkbox" class="form-check-input" name="gimnasia" id="gimnasia">
+                    <label for="gimnasia" class="form-check-label">GIMNASIA</label>
+
+                </div>
+
+            </div>
+            <div class="col-10">
+                <label for="descripcion" class="form-label">Escribe una descripcion</label>
+            </div>
+            <div class="col-15">
+                <textarea name="descripcion" class="form-control" id="descripcion"></textarea>
+            </div>
+            <div class="col-6">
+                <label for="nivel" class="form-label">NIVEL DE ESTUDIOS</label>
+                <br>
+                <select name="nivel">
+                    <option disabled="">Seleciona una opcion</option>
+                    <option value="Preescolar">Preescolar</option>
+                    <option value="Nivel Basico">Primaria</option>
+                    <option value="Nivel Medio">Secundaria</option>
+                    <option value="Nivel Medio">Sin Estudios</option>
+                </select>
+
+            </div>
+            <div class="col-10">
+
+                <label for="sexo" class="form-label">SEXO</label>
+                <br>
+                <input type="radio" name="Sexo" id="m" value="m"> Masculino
+                <br>
+                <input type="radio" name="Sexo" id="f" value="f"> Femenino
+                <br>
+                <input type="radio" name="Sexo" id="i" value="f"> Indefinido
+            </div>
+              <div class="text-center col-10">
+                <label for="archivoimg" class="form-label">FOTO DE PERFIL</label>
+               </div>
+                <br>
+            <div class="text-center col-10">
+                <input type="file" class="form-text" name="archivoimg" id="archivoimg" accept="image/*" pattern="[.jpg]" onchange="validar()">
+              </div>
+        </form>
+    </div>
+</section>
+</body>
+</html>

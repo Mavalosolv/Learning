@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /*font-family: sans-serif;*/
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 1.9rem;
+    background: #c5e8ef;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.form{
+    width: 80%;
+    min-width: 300px;
+    background: #bcd0c7;
+    margin: auto;
+    margin-top: 50px;
+    padding: 20px;
+}

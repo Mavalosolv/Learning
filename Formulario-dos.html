@@ -9,6 +9,7 @@
     <script src="instalar%20bp-ac/js/bootstrap.bundle.js"></script>
     <link rel="stylesheet" href="color-formulario.css">
     <script src="Aleatorio.js" type="text/javascript"></script>
+    <script src="FuncionValidar.js" type="text/javascript"></script>
         </head>
 <body>
 <section>
@@ -112,20 +113,3 @@
 </section>
 </body>
 </html>
-
-<script>
-    function validarima(input){
-
-        let imagen = input.files[0]
-        let arr = ['image/jpg','image/jpeg','image/png']
-
-        if(arr.indexOf(imagen.type) != -1){
-            console.log('Es Valido')
-        }else{
-            input.value =""
-            console.log('No es Valido')
-            alert('Selecciona un archivo valido')
-        }
-        console.log(input)
-    }
-</script>

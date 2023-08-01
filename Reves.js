@@ -7,6 +7,6 @@ let respal;
 
 console.log('Text a convertir: '+palabra);
 respal=Array.from(palabra).reverse().join('');
-console.log('Resultado: '+ respal);
+console.log(respal);
 
 console.log('------------------------------------------');

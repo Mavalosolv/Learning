@@ -10,6 +10,3 @@ for(let i=0; i<parametro2; i++){ //Declaracion del ciclo for, para empezar a int
     resarray.push(resultado); // insertado de datos en el arreglo.
 }
 console.log(resarray); // Imprimir en pantalla el resultado del arreglo ya llenado.
-
-
-

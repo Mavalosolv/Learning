@@ -26,18 +26,8 @@ function IncrementDe(param1, param2) { // declaracion de funcion
     }
     return resArr; //se retorna el arreglo
     //console.log(param1, param2);
-
-
-
 }
-IncrementDe(param1, param2);//declaracion de la funcion
 
 let resultado=IncrementDe(param1, param2);// se declara variable para inicializarla con la funcion y asi mostrarla en pantalla
 
 console.log(resultado); // se muestra en pantalla el resultado
-
-
-
-
-
-
